@@ -1,0 +1,134 @@
+.container{
+display: flex;
+}
+.floors{
+    display: inline-block;
+    /* padding-top: 0; */
+    width: 170px;
+    height: 440px;
+    border: 1px solid #c05555;
+    border-radius: 5px;
+    font-size: 22px;
+}
+.allButtoms{
+    text-align: center;
+}
+.elName{
+    display: block;
+    text-align: center;
+    color: #00587a;
+    font-size: 24px;
+   
+    
+    padding: 0;
+    background: rgb(232, 240, 187);
+}
+.btns{
+    
+    width: 50px;
+    height: 50px;
+    background-color: #c05555;
+    border-radius:4px ;
+    cursor: pointer;
+    color: white;
+    font-size: 30px;
+    
+}
+.projectName{
+    color: #008891;
+    text-shadow:2px 1px 2px #0f3057 ;
+    background-color: #e7e7de;
+    padding:6px 0 6px 30px;
+    width: 50%;
+    border: 2px  solid  #0f3057 ;
+    border-radius: 8px;
+    font-size: 36px;
+}
+.floors li{
+    list-style: none;
+    padding-top: 6px;
+    
+}
+.floors li:hover{
+    background-color: #c05555;
+   color: white;
+   padding: 3px;
+    border-radius: 3px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+#floorName{
+    color: rgb(255, 255, 255);
+    background-color: #008891;
+    margin: 10px;
+    padding: 5px;
+    border-radius: 3px;
+    display: block;
+    text-align: center;
+    font-size: 36px;
+}
+.evelators{
+     display: flex; 
+   
+    
+
+}
+.evelators li{
+    list-style: none;
+    color: #0f3057;
+    text-align: center;
+}
+#emergency ,#rest,#emergencyB,#restB{
+    color: rgb(206, 41, 41);
+    
+}
+.g1{
+    display: inline-block;
+ font-size: 21px;
+}
+/* .g2{
+    display: inline-block;
+
+} */
+.evelatorA,.evelatorB{
+    width: 324px;
+    height: 380px;
+    border: 2px solid navy;
+}
+
+.doorL{
+    width: 161px;
+    height: 380px;
+    background-color: #0f3057;
+    display: inline-block;
+}
+.doorR{
+    width: 161px;
+    height: 380px;
+    background-color:#0f3057;
+   
+    float: right;
+   
+}
+.all{
+    padding-left: 50px;
+}
+.first{
+    display:inline ;
+    padding-right: 30px;
+}
+.second{
+    display:inline ;
+    
+}
+.allBtns{
+
+     display: none; 
+}
+
+.allBtns li:hover{
+   cursor: pointer; 
+   
+   background-color: rgb(248, 170, 170);
+   border-radius: 2px;
+}
